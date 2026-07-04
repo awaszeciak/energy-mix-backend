@@ -94,7 +94,7 @@ public class ChargingWindowServiceTest {
     }
 
     @Test
-    void shouldThrowWHenNotEnoughDataForRequestedWindow() {
+    void shouldThrowWhenNotEnoughDataForRequestedWindow() {
         LocalDate tomorrow = LocalDate.now().plusDays(1);
 
         List<GenerationInterval> intervals = List.of(
