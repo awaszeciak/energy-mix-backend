@@ -81,6 +81,6 @@ Unit tests cover the energy mix aggregation logic and the optimal window algorit
 
 Deployed on [Render](https://render.com) as a Docker Web Service.
 
-Production URL: `https://energy-mix-backend-0ts0.onrender.com`
+Production URL: https://energy-mix-backend-0ts0.onrender.com
 
 > Note: Render's free tier spins down the service after ~15 minutes of inactivity - the first request after a period of inactivity may take 30-60 seconds.
